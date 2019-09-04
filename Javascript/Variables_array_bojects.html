@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variables - array -objects</title>
+</head>
+<body>
+	<div id="test"></div>
+	<script>
+		// output
+		//console.log('Hello World');
+		//document.write('Hello world');
+		//alert('Your name is dangerous');
+		//document.getElementById('test').innerHTML = ('test innerHTML code');
+
+		//Variables
+		var x;
+		x = 10;
+		var y = 20;
+		//console.log(x+y);
+		var person = 'Abdelrahman Alkahwaji';
+		//console.log('my name is ' + person);
+		var a = 2 , b = 5, c= 7;
+		//console.log(b);
+
+		//arrays
+		var animals = ['donkey', 'dog', 'cat', 'Horse'];
+		// var animals = new Array('cat', 'Dog', 'Horse') ** Another way to write an array ** 
+		//console.log(animals[2]);
+
+		animals[4] = 'Cow';
+		//console.log(animals);
+		//console.log(animals.length)
+		animals.push('Camel');
+		//console.log(animals);
+		//console.log(animals.sort());
+
+		var person = [];
+		person['name'] = 'Abdelrahman Alkahwaji';
+		person['age'] = 28;
+		person ['City'] = 'Daejeon';
+
+		//console.log(person);
+		//console.log(person.name)
+
+		var car = {make:'Ford', model : 'Mustang', year : 1996};
+		//console.log(car.make);
+		//console.log(car);
+
+		var cars = [
+			 {
+			 	make:'Ford', model : 'Mustang', year : 1996
+			 },
+			 {
+			 	make:'KIA', model : 'Serato', year : 2002
+			 },
+			 {
+			   	make:'Hyundai', model : 'Sonata', year : 2009
+			 },
+		];
+		console.log(cars);
+		console.log(cars[2].model);
+	</script>
+</body>
+</html>
