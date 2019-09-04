@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loops - Conditionals - Switches</title>
+</head>
+<body>
+	<ul id="people"></ul>
+	<script>
+		for (i=0;i<10;i++){ // to add 10 make it <= 10
+			//console.log(i);
+		}
+
+		var z = 3;
+		while (z<=10){
+			//console.log(z);
+			z ++;
+		}
+
+		var people = ['pop', 'mana', 'zizo'];
+
+		for (i=0;i<people.length;i++){
+			console.log(people[i]);
+		}
+
+		var people = [
+			{
+				name:'Bob',
+				age : 45
+			},
+			{
+				name:'ZICO',
+				age : 32
+			},
+			{
+				name:'MISHO',
+				age : 29
+			},
+		];
+		/*
+		var output = [];
+		for (var i = 0; i<people.length;i++){
+			document.getElementById('people').innerHTML +='<li>'+ people[i].name + ' - ' + people[i].age +'</li>';
+		};
+		*/
+
+
+		var x = 17;
+		var y = 30;
+		var z = 10;
+		// && and -- || or
+		/*
+		if (x<y && z == 10){
+			console.log(x+' is smaller than and z is equl to 10'+y);
+		} else if (x ==y){
+			console.log(x +' is equal to '+ y);
+		} else {
+			console.log(x+' is bigger than '+y);
+		}
+		*/
+
+		//Switches
+		var name = 'jack';
+		switch(name){
+			case 'joe':
+				console.log('My name is Joe');
+				break;
+			case 'misho':
+				console.log('My name is Misho');
+				break;
+			case 'jack':
+				console.log('My name is Jack');
+				break;
+			default:
+				console.log('My name is '+name);
+				break;
+		}
+	</script>
+</body>
+</html>
